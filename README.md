@@ -5,23 +5,17 @@
  I am a full time student studying Computer Science at the University of Kent
 
 
-### 👩🏻‍💻 About my projects
+### 📂 About my projects  
+![GitHub User's stars](https://img.shields.io/github/stars/harvey?style=flat&label=%E2%AD%90&color=yellow)
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=harvey)](https://github.com/anuraghazra/github-readme-stats)
- - ![GitHub User's stars](https://img.shields.io/github/stars/harvey)
-<!--[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=harvey)](https://github.com/anuraghazra/github-readme-stats)-->
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=harvey&layout=compact)
 
-<!--
-**Harvey/harvey** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+
+### 🌐 Chrome Extension Users
+   
+| **Name**              | **Users**  | **Rating** | **ID & Link** |
+|------------------------|-------------------------------------------------------------------------------------------------|-----------------|----------------|
+| Uplearn Auto Quality   | ![Chrome Web Store Users](https://img.shields.io/chrome-web-store/users/ponkhohjmpoaknmpcialdnhajpcblkkg?label=%20) | ![Chrome Web Store Stars](https://img.shields.io/chrome-web-store/stars/ponkhohjmpoaknmpcialdnhajpcblkkg?label=%20) | [ponkhohjmpoaknmpcialdnhajpcblkkg](https://chromewebstore.google.com/detail/pmt-pdfs/ponkhohjmpoaknmpcialdnhajpcblkkg)
+| PMT PDF's   | ![Chrome Web Store Users](https://img.shields.io/chrome-web-store/users/gjeebdglidpkjbgchhgifajmgfikocdi?label=%20) | ![Chrome Web Store Stars](https://img.shields.io/chrome-web-store/stars/gjeebdglidpkjbgchhgifajmgfikocdi?label=%20) | [gjeebdglidpkjbgchhgifajmgfikocdi](https://chromewebstore.google.com/detail/pmt-pdfs/gjeebdglidpkjbgchhgifajmgfikocdi)
