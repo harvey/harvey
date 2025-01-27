@@ -8,7 +8,7 @@
 ### 📂 About my projects  
 ![GitHub User's stars](https://img.shields.io/github/stars/harvey?style=flat&label=%E2%AD%90&color=yellow)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=harvey&layout=compact)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=harvey&layout=compact&theme=dark)
 
 
 
