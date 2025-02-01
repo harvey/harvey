@@ -15,7 +15,7 @@
 
 ### ⚙️ Chrome Extensions
    
-<table>
+<table border=1>
     <thead>
         <tr style="text-weight: bold">
             <th></th>
