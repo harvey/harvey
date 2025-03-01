@@ -1,15 +1,14 @@
 ## Welcome to Harvey's GitHub Profile
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="github-snake.svg" />
-  <img alt="GitHub Snake" src="github-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/harvey/harvey/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/harvey/harvey/output/github-snake.svg" />
+  <img alt="GitHub Snake" src="https://raw.githubusercontent.com/harvey/harvey/output/github-snake.svg" />
 </picture>
 
 ### 🎓 About me
 
- I am a full time student studying Computer Science at the University of Kent
-
+ I am a student who will start at the University of Exeter in September 2025
 
 ### 📂 About my projects  
 ![GitHub User's stars](https://img.shields.io/github/stars/harvey?style=flat&label=%E2%AD%90&color=yellow)
