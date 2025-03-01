@@ -1,5 +1,11 @@
 ## Welcome to Harvey's GitHub Profile
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="github-snake.svg" />
+  <img alt="GitHub Snake" src="github-snake.svg" />
+</picture>
+
 ### 🎓 About me
 
  I am a full time student studying Computer Science at the University of Kent
@@ -9,9 +15,6 @@
 ![GitHub User's stars](https://img.shields.io/github/stars/harvey?style=flat&label=%E2%AD%90&color=yellow)
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=harvey&layout=compact&theme=dark)
-
-
-
 
 ### ⚙️ Chrome Extensions
    
