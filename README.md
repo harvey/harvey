@@ -43,12 +43,5 @@
             <td><a href="https://chromewebstore.google.com/detail/uplearn-auto-quality/ponkhohjmpoaknmpcialdnhajpcblkkg">ponkhohjmpoaknmpcialdnhajpcblkkg</a></td>
         </tr>
 
-        <tr>
-            <td>✅</td>
-            <td>PMT PDF's</td>
-            <td><img src="https://img.shields.io/chrome-web-store/users/gjeebdglidpkjbgchhgifajmgfikocdi?label=%20" alt="Users"></td>
-            <td><img src="https://img.shields.io/chrome-web-store/stars/gjeebdglidpkjbgchhgifajmgfikocdi?label=%20" alt="Rating"></td>
-            <td><a href="https://chromewebstore.google.com/detail/pmt-pdfs/gjeebdglidpkjbgchhgifajmgfikocdi">gjeebdglidpkjbgchhgifajmgfikocdi</a></td>
-        </tr>
-      </tbody>
+
 </table>
