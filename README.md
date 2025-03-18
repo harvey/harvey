@@ -29,17 +29,17 @@
     </thead>
     <tbody>
      <tr>
-            <td>✅</td>
+            <td><img alt="Chrome Web Store Version" src="https://img.shields.io/chrome-web-store/v/fnoppdfnaklabgfllejlefomclegmnam?label=%20"></td>
             <td>Panopto Custom Speed</td>
             <td><img src="https://img.shields.io/chrome-web-store/users/fnoppdfnaklabgfllejlefomclegmnam?label=%20" alt="Users"></td>
-            <td><img src="https://img.shields.io/chrome-web-store/stars/fnoppdfnaklabgfllejlefomclegmnam?label=%20" alt="Rating"></td>
+            <td><img src="https://img.shields.io/chrome-web-store/stars/fnoppdfnaklabgfllejlefomclegmnam?label=%20" alt="Rating">&nbsp;<img alt="Chrome Web Store Rating Count" src="https://img.shields.io/chrome-web-store/rating-count/fnoppdfnaklabgfllejlefomclegmnam?label=%20&color=red"></td>
             <td><a href="https://chromewebstore.google.com/detail/panopto-custom-speed/fnoppdfnaklabgfllejlefomclegmnam">fnoppdfnaklabgfllejlefomclegmnam</a></td>
         </tr>
         <tr>
-            <td>✅</td>
+            <td><img alt="Chrome Web Store Version" src="https://img.shields.io/chrome-web-store/v/ponkhohjmpoaknmpcialdnhajpcblkkg?label=%20"></td>
             <td>Uplearn Custom Speed</td>
             <td><img src="https://img.shields.io/chrome-web-store/users/ponkhohjmpoaknmpcialdnhajpcblkkg?label=%20" alt="Users"></td>
-            <td><img src="https://img.shields.io/chrome-web-store/stars/ponkhohjmpoaknmpcialdnhajpcblkkg?label=%20" alt="Rating"></td>
+            <td><img src="https://img.shields.io/chrome-web-store/stars/ponkhohjmpoaknmpcialdnhajpcblkkg?label=%20" alt="Rating">&nbsp;<img alt="Chrome Web Store Rating Count" src="https://img.shields.io/chrome-web-store/rating-count/ponkhohjmpoaknmpcialdnhajpcblkkg?label=%20&color=red"></td>
             <td><a href="https://chromewebstore.google.com/detail/uplearn-auto-quality/ponkhohjmpoaknmpcialdnhajpcblkkg">ponkhohjmpoaknmpcialdnhajpcblkkg</a></td>
         </tr>
 
