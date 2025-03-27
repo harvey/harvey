@@ -1,5 +1,4 @@
 ## Welcome to Harvey's GitHub Profile
-![Visits](https://img.shields.io/badge/Visits-26308-blue)
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/harvey/harvey/output/github-snake-dark.svg" />
