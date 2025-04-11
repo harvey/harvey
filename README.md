@@ -7,8 +7,7 @@
 </picture>
 
 ### 🎓 About me
-
- I am a student who will start at the University of Exeter in September 2025
+I like coding
 
 ### 📂 About my projects  
 ![GitHub User's stars](https://img.shields.io/github/stars/harvey?style=flat&label=%E2%AD%90&color=yellow)
