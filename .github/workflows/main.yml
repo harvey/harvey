@@ -1,30 +1,56 @@
-name: Generate Snake
+name: Refresh profile
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # runs daily at midnight UTC
+    - cron: "0 0 * * *"
   workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v7
 
-      - name: Generate Snake Game
+      # Last good values, used by the generator if a source is down.
+      - name: Restore cached data
+        run: |
+          mkdir -p dist
+          git fetch --depth=1 origin output && git show FETCH_HEAD:data.json > dist/data.json || rm -f dist/data.json
+
+      - name: Generate cards
+        run: python3 scripts/generate.py --out dist --readme README.md
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate snake
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          # Specify the output files to generate:
           outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
+            dist/github-snake.svg?color_snake=#4656d6
+            dist/github-snake-dark.svg?palette=github-dark&color_snake=#7c8cff
 
-      - name: Push generated files to output branch
-        uses: crazy-max/ghaction-github-pages@v2.1.3
+      # Any failure above stops here, so the current images stay live.
+      - name: Publish images
+        uses: crazy-max/ghaction-github-pages@v5
         with:
           target_branch: output
           build_dir: dist
+          jekyll: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # Only changes when the list of projects changes.
+      - name: Commit README changes
+        run: |
+          git diff --quiet README.md && exit 0
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "Refresh generated README sections"
+          git push
