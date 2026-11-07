@@ -236,9 +236,9 @@ def svg(width, height, label, style, body):
 
 
 def hero(t):
-    width, height = 840, 280
-    name_width = 640  # fixed so the cursor sits right after the name in any font
-    drift = [("a", 22, (150, 40), (420, 180)), ("b", 29, (720, 240), (430, 60)), ("c", 37, (420, 300), (760, 90))]
+    width, height = 840, 150
+    name_width = 400  # fixed so the cursor sits right after the name in any font
+    drift = [("a", 22, (150, 20), (420, 100)), ("b", 29, (720, 130), (430, 30)), ("c", 37, (420, 160), (760, 50))]
     style = "".join(
         f"@keyframes {n}{{from{{transform:translate({x0}px,{y0}px)}}to{{transform:translate({x1}px,{y1}px)}}}}"
         f".{n}{{animation:{n} {seconds}s ease-in-out infinite alternate}}"
@@ -251,7 +251,7 @@ def hero(t):
         f'<stop offset="1" stop-color="{colour}" stop-opacity="0"/></radialGradient>'
         for i, colour in enumerate(t["wash"]))
     blobs = "".join(f'<circle class="{n}" r="{r}" fill="url(#g{i})"/>'
-                    for i, (n, r) in enumerate([("a", 300), ("b", 270), ("c", 240)]))
+                    for i, (n, r) in enumerate([("a", 240), ("b", 220), ("c", 190)]))
     body = f"""
 <defs>{gradients}
 <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="{t['line']}" stroke-opacity="{t['grid']}"/></pattern>
@@ -259,9 +259,9 @@ def hero(t):
 </defs>
 <g clip-path="url(#frame)">
 <rect width="{width}" height="{height}" fill="{t['bg']}"/>{blobs}<rect width="{width}" height="{height}" fill="url(#grid)"/>
-<g class="u"><text x="44" y="158" font-size="88" font-weight="800" textLength="{name_width}" lengthAdjust="spacingAndGlyphs" fill="{t['ink']}">{escape(NAME)}</text>
-<rect class="k" x="{44 + name_width + 12}" y="88" width="7" height="78" rx="2" fill="{t['accent']}"/></g>
-<text class="m v" x="46" y="212" font-size="25" fill="{t['muted']}">{escape(SITE)}</text>
+<g class="u"><text x="36" y="78" font-size="55" font-weight="800" textLength="{name_width}" lengthAdjust="spacingAndGlyphs" fill="{t['ink']}">{escape(NAME)}</text>
+<rect class="k" x="{36 + name_width + 9}" y="34" width="5" height="50" rx="2" fill="{t['accent']}"/></g>
+<text class="m v" x="38" y="116" font-size="22" fill="{t['muted']}">{escape(SITE)}</text>
 </g>
 <rect x=".5" y=".5" width="{width - 1}" height="{height - 1}" rx="18" fill="none" stroke="{t['line']}"/>"""
     return svg(width, height, NAME, style, body)
